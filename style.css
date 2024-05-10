@@ -149,3 +149,31 @@ section.project {
     display: inline-table;
     margin-left: 1em;
 }
+
+/*SUBMIT FORM*/
+
+
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+    border-color: #6b705c;
+    background-color: #f7dba7;
+    border-width: 1vb;
+    border-style: dotted;
+}
+
+textarea {
+    font-family: 'Courier New', Courier, monospace;
+    border-color: #6b705c;
+    background-color: #f7dba7;
+    border-width: 1vb;
+    border-style: dotted;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    border-color: #6b705c;
+    background-color: #f7dba7;
+    border-width: 1vb;
+    border-style: dotted;
+}
