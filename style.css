@@ -1,0 +1,151 @@
+body {
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+display: inline;
+background-color: #f7dba7;
+max-width: 900px;
+padding: 0;
+margin: auto;
+color: #6b705c;
+
+
+}
+
+header {
+
+text-align: center;
+font-size: 56px;
+font-weight: bolder;
+padding: 20px;
+
+}
+
+
+h1{
+    text-align: center;
+    font-size: 40px;
+
+}
+
+footer {
+
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #6b705c;
+    color: #ffe8d6;
+
+}
+
+nav {
+    background-color: #6b705c;
+    color: #ffe8d6;
+    width: 100%;
+    height: auto;
+    font-size: 2em;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+a {
+    color: #b7b7a4;
+    text-decoration: overline;
+    font-size: 20px;
+}
+
+
+
+/*
+MAIN STYLES
+*/
+
+main {
+    text-align: center;
+    margin-top: 300px;
+}
+
+main > img {
+    float: left;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+
+}
+
+main > h2 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+main > h3 {
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*ABOUT*/
+
+main > section > h2 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+main > section > img {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+}
+
+img.bowl {
+    float: left;
+}
+
+img.travel {
+    float: right;
+}
+
+img.kids {
+    float: right;
+}
+
+hr.top {
+    border: 10px solid;
+    border-radius: 5px;
+}
+
+hr.divide {
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+
+
+
+/* portfolio */
+
+
+
+
+img.portnum {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+section.project {
+    border: 15px solid;
+    height: auto;
+    width: 400px;
+    display: inline-table;
+    margin-left: 1em;
+}
