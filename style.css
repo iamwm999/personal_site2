@@ -2,7 +2,7 @@ body {
 font-family: 'Courier New', Courier, monospace;
 text-align: center;
 display: inline;
-background-color: lightgray;
+background-color: #f7dba7;
 max-width: 900px;
 padding: 0;
 margin: auto;
@@ -10,9 +10,10 @@ color: #6b705c;
 
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 900px) {
     body {
-      background-color: #f7dba7;
+      background-color: #ebebd3;
+      color: #6b705c;
     }
 }
 
@@ -40,13 +41,13 @@ footer {
     width: 100%;
     height: auto;
     background-color: #6b705c;
-    color: #ffe8d6;
+    color: #f7dba7;
 
 }
 
 nav {
     background-color: #6b705c;
-    color: #ffe8d6;
+    color: #f7dba7;
     width: 100%;
     height: auto;
     font-size: 2em;
@@ -126,13 +127,14 @@ hr.divide {
 img.portnum {
     width: 100px;
     height: 100px;
+    padding: 10px;
     float: left;
-    transition: width 2s;
+    transition: ease-in-out;
 }
 
-img:hover {
-    width: 300px
-    height 300px;
+.portnum:hover {
+    width: 300px;
+    height: 300px;
 }
 
 
@@ -147,18 +149,11 @@ img:hover {
 
 /*SUBMIT FORM*/
 
-div.form {
-
-    align-items: center;
-    max-width: 100%;
-    min-width: none;
-    
-}
 
 input {
     font-family: 'Courier New', Courier, monospace;
     border-color: #6b705c;
-    background-color: #f7dba7;
+    background-color: transparent;
     border-width: 2px;
     border-style: dashed;
     width: 25%;
@@ -169,7 +164,7 @@ input {
 textarea {
     font-family: 'Courier New', Courier, monospace;
     border-color: #6b705c;
-    background-color: #f7dba7;
+    background-color: transparent;
     color: #6b705c;
     border-width: 2px;
     border-style: dashed;
@@ -182,7 +177,7 @@ button {
     font-weight: bold;
     color: #6b705c;
     border-color: #6b705c;
-    background-color: #f7dba7;
+    background-color: transparent;
     border-width: 2px;
     border-style: dashed;
 }
