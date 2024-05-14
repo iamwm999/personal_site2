@@ -1,3 +1,3 @@
 setTimeout(() => {
-  window.location.href = window.location.origin;
+  window.location.href = window.location.origin
 }, 5000)
